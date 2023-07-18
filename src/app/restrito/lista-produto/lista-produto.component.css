@@ -1,0 +1,10 @@
+table img {
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-inline: 10px;
+}

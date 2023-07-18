@@ -1,0 +1,60 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Mouse Gamer",
+      "descricao": "Redragon",
+      "foto": "mouse-redragon.png",
+      "preco": 150
+    },
+    {
+      "id": 2,
+      "produto": "Controle PS5",
+      "descricao": "Sony",
+      "foto": "joystick-ps5.png",
+      "preco": 450
+    },
+    {
+      "id": 3,
+      "produto": "Headset Gamer",
+      "descricao": "Razer",
+      "foto": "headset-razer.png",
+      "preco": 740
+    },
+    {
+      "id": 4,
+      "produto": "Controle Xbox",
+      "descricao": "Joystick",
+      "foto": "joystick-xbox.png",
+      "preco": 409
+    },
+    {
+      "id": 5,
+      "produto": "Processador Core I7",
+      "descricao": "Intel",
+      "foto": "intel-core-i7-10700k.png",
+      "preco": 1500
+    },
+    {
+      "id": 6,
+      "produto": "Processador Ryzen 5",
+      "descricao": "AMD",
+      "foto": "ryzen5.png",
+      "preco": 589
+    },
+    {
+      "id": 7,
+      "produto": "Óculos de VR",
+      "descricao": "VR Shinecon",
+      "foto": "vr.png",
+      "preco": 468
+    },
+    {
+      "id": 8,
+      "produto": "Switch",
+      "descricao": "Nintendo",
+      "foto": "nintendo-switch.png",
+      "preco": 3000
+    }
+  ]
+}

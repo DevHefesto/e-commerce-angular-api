@@ -1,0 +1,98 @@
+/* Navbar */
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo */
+.logo-img {
+    height: auto;
+    width: 100px;
+}
+
+/* Alterar cor do link ao repousar o cursor em cima */
+.nav-link:hover {
+    color: black;
+}
+
+.d-flex {
+    width: 24rem;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.custom-navbar {
+    background-color: #728F7A;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.custom-btn {
+    border-width: 3px;
+}
+
+input::placeholder {
+    color: black;
+  }
+
+.btn-outline-success {
+    --bs-btn-color: black;
+    --bs-btn-border-color: #5C4040;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #5C4040;
+    --bs-btn-hover-border-color: #5C4040;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #5C4040;
+    --bs-btn-active-border-color: #5C4040;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #5C4040;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #5C4040;
+    --bs-gradient: none;
+}
+
+
+@media(max-width: 992px) {
+
+    /* Container Botão Buscar + Input */
+    .search {
+        min-width: 250px;
+        margin-left: 5px;
+    }
+
+    /* Container da Navbar */
+    .container-fluid {
+        background-color: #728F7A;
+        padding: 10px;
+    }
+
+    /* Altere aqui o valor do padding da navbar com links escondidos */
+    .custom-navbar {
+        padding: 0;
+    }
+
+    /* Links */
+    .navbar-nav {
+        padding-left: 7px;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    /* Botão Alternar */
+    .navbar-toggler {
+        z-index: 4;
+    }
+
+}

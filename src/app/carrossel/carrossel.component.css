@@ -1,0 +1,26 @@
+#section-banners {
+  padding: 0;
+}
+
+.d-block {
+  height: 32rem;
+  width: 100%;
+}
+
+@media(max-width: 862px) {
+  .d-block {
+    height: 27rem;
+  }
+}
+
+@media(max-width: 664px) {
+  .d-block {
+    height: 20rem;
+  }
+}
+
+@media(max-width: 450px) {
+  .d-block {
+    height: 15rem;
+  }
+}
